@@ -2,9 +2,13 @@
 
 Listing tasks needed for completing the implementation, and notes recording approach / progress towards completing the individual tasks.
 
-* [ ] Create an enum representing the "standard" card suits.
+* [x] Create an enum representing the "standard" card suits.
 
-## Create an enum representing the "standard" card suits
+## Create an enum representing the "standard" card suits ##
+
+ES6 doesn't come with an Enum class out of the box, so a class to create Enums was needed.  The class was created with options to provide the enum 'labels' either as multiple string parameters, a single comma-delimited string parameter, or a mix of the two.
+
+Created a module which exports an enum which represents the four different suits, in alphabetical order.
 
 * [x] Created an Enum class to generate enum objects.
 * [x] Created unit test for Enum class constructor.
@@ -12,10 +16,13 @@ Listing tasks needed for completing the implementation, and notes recording appr
 * [x] Created unit test for suits module / Suits object
 * [x] Created a module to initialize an Enum for the card suits.
 
-1. Create an enum representing the "standard" cards in a suit.
+## Create a class representing a single playing card ##
 
-1. Create a class representing a single playing card.
-	* Include a member property containing a description of the card.
+Created a base playing card class and matching unit tests.
+
+* [x] Include a card description property.
+
+# Reference #
 	
 1. Create a class representing a "standard" playing card.
 	* Include a member property for the suit.
