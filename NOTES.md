@@ -22,13 +22,19 @@ Created a base playing card class and matching unit tests.
 
 * [x] Include a card description property.
 
+## Create a class representing a "standard" playing card ##
+
+Created the unit test for the standard card, using the ace of spades as the first test case.  Created more unit tests to iterate through all of the cards in a standard deck and run the same tests against them.  Created modules to represent the names and values of the standard playing cards.
+
+Adjusted the logic of the tests and card class to use something like a 1-based indexed array (0 index value is undefined).
+
+* [x] Include an object member property for the suit, with name and value properties.
+* [x] Include a member property for the value.
+* [x] Include a member property for the name (e.g. 'ace', 'jack', 'queen', 'king').
+* [x] Set the description property to 'name of suit'
+
 # Reference #
 	
-1. Create a class representing a "standard" playing card.
-	* Include a member property for the suit.
-	* Include a member property for the value.
-	* Include a member property for the name (e.g. 'ace', 'jack', 'queen', 'king').
-
 1. Create a class representing the "standard" deck of cards as a set of cards.
 
 1. Create a class representing any set of cards.
