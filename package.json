@@ -1,0 +1,27 @@
+{
+  "name": "deck-of-cards",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An implementation of a deck of cards in ES6.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://j5bot@github.com/j5bot/deck-of-cards.git"
+  },
+  "author": "Jonathan 'J5' Cook <jonathan.j5.cook@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/j5bot/deck-of-cards/issues"
+  },
+  "homepage": "https://github.com/j5bot/deck-of-cards#readme",
+  "devDependencies": {
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0"
+  }
+}
