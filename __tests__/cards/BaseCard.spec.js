@@ -1,4 +1,4 @@
-import { BaseCard } from '../../src/cards/base-card.js';
+import { BaseCard } from '../../src/cards/BaseCard.js';
 
 describe('base card', () => {
 
@@ -8,7 +8,7 @@ describe('base card', () => {
 
     const card = new BaseCard(description);
     expect(card.description).toBe(description);
-    
+
   });
 
 });

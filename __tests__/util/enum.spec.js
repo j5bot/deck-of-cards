@@ -1,4 +1,4 @@
-import { Enum } from '../../src/util/enum.js';
+import { Enum } from '../../src/util/Enum.js';
 
 // Test the implementation of the Enum class
 describe('enum', () => {

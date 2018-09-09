@@ -1,5 +1,5 @@
-import { Suits } from '../../src/cards/suits.js';
-import { PlayingCard } from '../../src/cards/french-playing-card.js';
+import { Suits } from '../../src/cards/Suits.js';
+import { PlayingCard } from '../../src/cards/FrenchPlayingCard.js';
 import { names } from '../../src/cards/french-deck-names.js';
 import { values } from '../../src/cards/french-deck-values.js';
 

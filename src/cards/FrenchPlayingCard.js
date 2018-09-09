@@ -1,8 +1,8 @@
 import { names } from './french-deck-names.js';
 import { values } from './french-deck-values.js';
 
-import { Suits } from './suits.js';
-import { BaseCard } from './base-card.js';
+import { Suits } from './Suits.js';
+import { BaseCard } from './BaseCard.js';
 
 export class PlayingCard extends BaseCard {
 
