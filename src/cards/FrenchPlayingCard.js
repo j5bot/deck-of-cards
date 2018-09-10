@@ -6,16 +6,17 @@ import { BaseCard } from './BaseCard.js';
 
 export class PlayingCard extends BaseCard {
 
-  constructor( value, suit ) {
+  constructor( index, suit ) {
     super();
 
-    this.value = value;
+    this.index = index;
+    this.value = values[index];
     this.name = names[
-      value
+      index
     ];
     this.suit = {
-      name: (suit.length && Suits[suit.toUpperCase()]) || Suits[suit].toLowerCase(),
-      value: (suit.length && Suits[suit]) || suit
+      name: Suits[suit],
+      value: suit
     };
     this.description = `${this.name} of ${this.suit.name}`;
   }
