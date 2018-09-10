@@ -6,10 +6,10 @@ import { values } from '../../src/cards/french-deck-values.js';
 describe('playing card', () => {
 
   const suits = [
-    'clubs',
-    'diamonds',
-    'hearts',
-    'spades'
+    'Clubs',
+    'Diamonds',
+    'Hearts',
+    'Spades'
   ];
 
   describe('single card', () => {
@@ -17,23 +17,23 @@ describe('playing card', () => {
     const aceOfSpades = new PlayingCard(1, Suits.SPADES);
 
     test('suit name', () => {
-      expect(aceOfSpades.suit.name).toBe('spades');
+      expect(aceOfSpades.suit.name).toBe('Spades');
     });
     test('name', () => {
-      expect(aceOfSpades.name).toBe('ace');
+      expect(aceOfSpades.name).toBe('Ace');
     });
     test('value', () => {
       expect(aceOfSpades.value).toBe(1);
     });
     test('description', () => {
-      expect(aceOfSpades.description).toBe('ace of spades');
+      expect(aceOfSpades.description.toLowerCase()).toBe('ace of spades');
     });
     test('suit value', () => {
       expect(aceOfSpades.suit.value).toBe(3);
     });
     test('suit enum value', () => {
       expect(
-        Suits[aceOfSpades.suit.name.toUpperCase()]
+        Suits[aceOfSpades.suit.name]
       ).toBe(3);
     });
 
@@ -44,16 +44,16 @@ describe('playing card', () => {
     suits.forEach(
       (suit, suiteIndex) => {
 
-        values.forEach(
-          (value, valueIndex) => {
+        names.forEach(
+          (name, nameIndex) => {
 
-            if ( valueIndex === 0 ) {
+            if ( nameIndex === 0 ) {
               return;
             }
 
             const card = new PlayingCard(
-              valueIndex,
-              Suits[suit.toUpperCase()]
+              nameIndex,
+              Suits[suit]
             );
 
             const description = `${card.name} of ${card.suit.name}`;
@@ -65,24 +65,24 @@ describe('playing card', () => {
               });
               test('name', () => {
                 expect(card.name).toBe(
-                  names[valueIndex]
+                  names[nameIndex]
                 );
               });
               test('value', () => {
-                expect(card.value).toBe(valueIndex);
+                expect(card.value).toBe(values[nameIndex]);
               });
               test('description', () => {
-                expect(card.description).toBe(description);
+                expect(card.description.toLowerCase()).toBe(description.toLowerCase());
               });
               test('suit value', () => {
                 expect(card.suit.value).toBe(
-                  Suits[card.suit.name.toUpperCase()]
+                  Suits[card.suit.name]
                 );
               });
               test('suit enum value', () => {
                 expect(
                   Suits[card.suit.value]
-                ).toBe(card.suit.name.toUpperCase());
+                ).toBe(card.suit.name);
               });
 
             });

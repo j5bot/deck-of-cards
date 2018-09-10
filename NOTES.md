@@ -35,6 +35,8 @@ Adjusted the logic of the tests and card class to use something like a 1-based i
 
 ## Create a class representing any set of cards ##
 
+Created a class representing a set of cards.
+
 * [x] Include a member property containing objects representing each card.
 * [x] Include a member method to get the size of the set.
 * [x] Include a member method to get an iterator which returns cards from the set.
@@ -42,7 +44,9 @@ Adjusted the logic of the tests and card class to use something like a 1-based i
 
 ## Create a class representing the "standard" deck of cards as a set of cards ##
 
+Created a Deck class.
 
+* [x] Iterates through all suits, creating a card of each name for each suit and adding it to the set of cards
 
 # Reference #
 	

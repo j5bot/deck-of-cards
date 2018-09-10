@@ -30,4 +30,15 @@ describe('enum', () => {
 
   });
 
+  describe('methods', () => {
+
+    const e = new Enum('FOO,BAR,FOOBAR');
+
+    test('length', () => {
+      expect(e).toHaveProperty('length');
+      expect(e.length).toBe(3);
+    });
+
+  });
+
 });
