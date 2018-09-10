@@ -33,15 +33,20 @@ Adjusted the logic of the tests and card class to use something like a 1-based i
 * [x] Include a member property for the name (e.g. 'ace', 'jack', 'queen', 'king').
 * [x] Set the description property to 'name of suit'
 
+## Create a class representing any set of cards ##
+
+* [x] Include a member property containing objects representing each card.
+* [x] Include a member method to get the size of the set.
+* [x] Include a member method to get an iterator which returns cards from the set.
+* [x] Include a member method to get a single card by index.
+
+## Create a class representing the "standard" deck of cards as a set of cards ##
+
+
+
 # Reference #
 	
 1. Create a class representing the "standard" deck of cards as a set of cards.
-
-1. Create a class representing any set of cards.
-	* Include a member property containing objects representing each card.
-	* Include a member method to get the size of the set.
-	* Include a member method to get an iterator which returns cards from the set.
-	* Include a member method to get a single card by index.
 	
 1. Optional: Create a class representing a set of sets of cards.
 	* Include a member decks of cards in the set.
