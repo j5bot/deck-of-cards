@@ -8,8 +8,11 @@
     "test": "test"
   },
   "scripts": {
+    "coverage": "jest --coverage",
+    "coverage:view": "open coverage/lcov-report/index.html",
     "lint": "eslint **/*.js",
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "repository": {
     "type": "git",
