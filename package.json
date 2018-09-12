@@ -1,6 +1,6 @@
 {
   "name": "deck-of-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "An implementation of a deck of cards in ES6.",
   "main": "index.js",
@@ -32,5 +32,8 @@
   },
   "jest": {
     "verbose": true
+  },
+  "dependencies": {
+    "get-random-values": "^1.2.0"
   }
 }
