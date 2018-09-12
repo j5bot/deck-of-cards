@@ -1,18 +1,9 @@
-import getRandomValues from 'get-random-values';
+import { getRandomInt } from '../util/random.js';
 
-const getRandomInt = (min, max) => {
-  // Create byte array and fill with 1 random number
-  const byteArray = new Uint8Array(1);
-
-  getRandomValues(byteArray);
-
-  const range = max - min + 1;
-  const maxRange = 256;
-
-  if (byteArray[0] >= Math.floor(maxRange / range) * range) {
+const makeRandomizer = (min, max) => {
+  return () => {
     return getRandomInt(min, max);
-  }
-  return min + (byteArray[0] % range);
+  };
 };
 
 export const shuffler = (Base) => class extends Base {
@@ -21,17 +12,14 @@ export const shuffler = (Base) => class extends Base {
 
     const randomized = [];
     const array = this.cardArray;
-
-    const randomizer = () => {
-      return getRandomInt(0, array.length - 1);
-    };
+    const randomizer = makeRandomizer(0, array.length - 1);
 
     let position;
     let card;
 
     while (array.length) {
       // a random position from which to get the value of a card
-      position = randomizer();
+      position = randomizer(array);
       // add the random card to the randomized set
       card = array[ position ];
       if (!card) {
@@ -50,6 +38,29 @@ export const shuffler = (Base) => class extends Base {
     this.cards = new Set(this.cardArray);
 
     return this.cards;
+  }
+
+  randomCard () {
+
+    const unDealt =
+      this.unDealt =
+        (this.unDealt ||
+          this.cardArray.filter(
+            (card) => {
+              return !card.dealt;
+            }
+          )
+        );
+
+    const randomizer = makeRandomizer(0, unDealt.length - 1);
+    let position = randomizer();
+
+    if (unDealt.length === 0) {
+      return undefined;
+    }
+
+    return unDealt.splice(position, 1)[0];
+
   }
 
   shuffle (randomizations) {

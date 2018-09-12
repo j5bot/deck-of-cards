@@ -48,11 +48,15 @@ Created a Deck class.
 
 * [x] Iterates through all suits, creating a card of each name for each suit and adding it to the set of cards
 
-## Create a sub class implementing operations on a set of cards ##
+## Create a class implementing shuffling operations on a set of cards ##
 
-* [ ]  Include a member method implementing a shuffling algorithm.
-* 
-	* Include a private member method implementing a single randomization of the set.
+Created a mixin `shuffler` which allows for decorating classes with shuffling capability.  Created a `ShufflableDeck` class which decorates the `Deck` class via the `shuffler` mixin.  Created tests for the `ShufflableDeck` class / shuffler methods.
+
+* [x] Include a member method implementing a shuffling algorithm.
+* [x] Include a private member method implementing a single randomization of the set
+
+## Create a class implementing dealing operations on a set of cards ##
+
 * Include a member method implementing a linear card dealing algorithm (FIFO).
 * Include a member method implementing a random card dealing algorithm (WTFO).
 * Optional: Include a member method implementing the discarding of cards.
@@ -60,14 +64,6 @@ Created a Deck class.
 
 # Reference #
 		
-1. Create a sub class implementing operations on a set of cards.
-	* Include a member method implementing a shuffling algorithm.
-		* Include a private member method implementing a single randomization of the set.
-	* Include a member method implementing a linear card dealing algorithm (FIFO).
-	* Include a member method implementing a random card dealing algorithm (WTFO).
-	* Optional: Include a member method implementing the discarding of cards.
-	* Optional: Include a member set containing objects representing playing cards which have been discarded (LIFO).
-
 1. Optional: Create a class representing a set of sets of cards.
 	* Include a member decks of cards in the set.
 	* Include a no parameter constructor which initializes the set of sets with a single set of cards.
