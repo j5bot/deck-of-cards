@@ -1,4 +1,4 @@
-const dealFIFO = ({ deck, quantity } = {}) => {
+const dealFIFO = ({ deck, quantity }) => {
   const iterator = deck._iterator_ || (deck._iterator_ = deck.iterator());
   const result = [];
 
@@ -17,7 +17,7 @@ const dealFIFO = ({ deck, quantity } = {}) => {
   return result;
 };
 
-const dealWTFO = ({ deck, quantity } = {}) => {
+const dealWTFO = ({ deck, quantity }) => {
   const result = [];
 
   if (quantity === 1) {
@@ -48,6 +48,16 @@ export const dealer = (Base) => class extends Base {
     default:
       return dealFIFO({ deck: this, quantity });
     }
+  }
+
+  reset () {
+    delete this._iterator_;
+    delete this.unDealt;
+    this.cardArray.forEach(
+      (card) => {
+        delete card.dealt;
+      }
+    );
   }
 
 };

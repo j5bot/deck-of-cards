@@ -30,6 +30,51 @@ describe('enum', () => {
       expect(enumerated[1]).toBe('BAR');
     });
 
+    test('object element', () => {
+      const object = {
+        name:  'FOO',
+        index: 1,
+        value: {
+          foo: 'FOO'
+        }
+      };
+      const enumerated = new Enum(object);
+
+      expect(enumerated.FOO).toBe(1);
+      expect(enumerated[1].name).toBe('FOO');
+      expect(enumerated[1].value).toMatchObject(object);
+
+    });
+
+    test('object element, no index', () => {
+      const object = {
+        name:  'FOO',
+        value: {
+          foo: 'FOO'
+        }
+      };
+
+      const enumerated = new Enum(object);
+
+      expect(enumerated.FOO).toBe(0);
+      expect(enumerated[0].name).toBe('FOO');
+      expect(enumerated[0].value).toMatchObject(object);
+
+    });
+
+    test('no numerical elements', () => {
+      const enumerated = new Enum(1);
+
+      expect(enumerated).toHaveLength(0);
+
+    });
+
+    test('no elements', () => {
+      const enumerated = new Enum();
+
+      expect(enumerated).toHaveLength(0);
+    });
+
   });
 
   describe('methods', () => {

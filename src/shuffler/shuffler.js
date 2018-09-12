@@ -59,7 +59,9 @@ export const shuffler = (Base) => class extends Base {
       return undefined;
     }
 
-    return unDealt.splice(position, 1)[0];
+    const card = unDealt.splice(position, 1)[0];
+
+    card.dealt = true;
 
   }
 
