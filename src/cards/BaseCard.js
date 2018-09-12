@@ -1,6 +1,6 @@
 export class BaseCard {
 
-  constructor( description ) {
+  constructor (description) {
     this.description = description;
   }
 

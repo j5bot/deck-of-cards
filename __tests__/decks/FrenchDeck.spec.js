@@ -2,7 +2,6 @@ import { PlayingCard } from '../../src/cards/FrenchPlayingCard.js';
 import { Deck } from '../../src/decks/FrenchDeck.js';
 import { Suits } from '../../src/cards/Suits.js';
 import { names } from '../../src/cards/french-deck-names.js';
-import { values } from '../../src/cards/french-deck-values.js';
 
 describe('card deck', () => {
 
@@ -26,8 +25,25 @@ describe('card deck', () => {
     describe('card values', () => {
 
       const iterator = deck.iterator();
-
       const suits = Suits.elements;
+
+      const testEachCard = (suit, suitIndex, name, nameIndex) => {
+
+        if (nameIndex === 0) {
+          return;
+        }
+
+        const expectCard = new PlayingCard(
+          nameIndex, suitIndex
+        );
+
+        const card = iterator.next().value;
+
+        test(expectCard.description, () => {
+          expect(card).toEqual(expectCard);
+        });
+
+      };
 
       suits.forEach(
         (suit, suitIndex) => {
@@ -35,19 +51,7 @@ describe('card deck', () => {
           names.forEach(
             (name, nameIndex) => {
 
-              if ( nameIndex === 0 ) {
-                return;
-              }
-
-              const expectCard = new PlayingCard(
-                nameIndex, suitIndex
-              );
-
-              const card = iterator.next().value;
-
-              test(expectCard.description, () => {
-                expect(card).toEqual(expectCard);
-              });
+              testEachCard(suit, suitIndex, name, nameIndex);
 
             }
           );

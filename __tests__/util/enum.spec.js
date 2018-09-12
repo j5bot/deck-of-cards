@@ -6,37 +6,39 @@ describe('enum', () => {
   describe('constructor', () => {
 
     test('single parameter', () => {
-      const e = new Enum('FOO');
+      const enumerated = new Enum('FOO');
 
-      expect(e.FOO).toBe(0);
-      expect(e[0]).toBe('FOO');
+      expect(enumerated.FOO).toBe(0);
+      expect(enumerated[0]).toBe('FOO');
     });
 
     test('multiple parameters', () => {
-      const e = new Enum('FOO', 'BAR');
-      expect(e.FOO).toBe(0);
-      expect(e.BAR).toBe(1);
-      expect(e[0]).toBe('FOO');
-      expect(e[1]).toBe('BAR');
+      const enumerated = new Enum('FOO', 'BAR');
+
+      expect(enumerated.FOO).toBe(0);
+      expect(enumerated.BAR).toBe(1);
+      expect(enumerated[0]).toBe('FOO');
+      expect(enumerated[1]).toBe('BAR');
     });
 
     test('single delimited parameter', () => {
-      const e = new Enum('FOO,BAR');
-      expect(e.FOO).toBe(0);
-      expect(e.BAR).toBe(1);
-      expect(e[0]).toBe('FOO');
-      expect(e[1]).toBe('BAR');
+      const enumerated = new Enum('FOO,BAR');
+
+      expect(enumerated.FOO).toBe(0);
+      expect(enumerated.BAR).toBe(1);
+      expect(enumerated[0]).toBe('FOO');
+      expect(enumerated[1]).toBe('BAR');
     });
 
   });
 
   describe('methods', () => {
 
-    const e = new Enum('FOO,BAR,FOOBAR');
+    const enumerated = new Enum('FOO,BAR,FOOBAR');
 
     test('length', () => {
-      expect(e).toHaveProperty('length');
-      expect(e.length).toBe(3);
+      expect(enumerated).toHaveProperty('length');
+      expect(enumerated).toHaveLength(3);
     });
 
   });

@@ -6,7 +6,7 @@ import { BaseCard } from './BaseCard.js';
 
 export class PlayingCard extends BaseCard {
 
-  constructor( index, suit ) {
+  constructor (index, suit) {
     super();
 
     this.index = index;
@@ -15,7 +15,7 @@ export class PlayingCard extends BaseCard {
       index
     ];
     this.suit = {
-      name: Suits[suit],
+      name:  Suits[suit],
       value: suit
     };
     this.description = `${this.name} of ${this.suit.name}`;

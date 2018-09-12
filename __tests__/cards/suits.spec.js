@@ -31,7 +31,7 @@ describe('suits', () => {
   });
 
   test('length', () => {
-    expect(Suits.length).toBe(4);
+    expect(Suits).toHaveLength(4);
   });
 
 });

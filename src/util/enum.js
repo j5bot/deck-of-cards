@@ -1,5 +1,5 @@
-const createStringElement = ( element, index ) => {
-  if ( typeof element !== 'string' ) {
+const createStringElement = (element, index) => {
+  if (typeof element !== 'string') {
     return false;
   }
 
@@ -10,18 +10,18 @@ const createStringElement = ( element, index ) => {
   };
 };
 
-const createObjectElement = ( element, index ) => {
-  if ( typeof object !== 'object' ) {
+const createObjectElement = (element, index) => {
+  if (typeof object !== 'object') {
     return false;
   }
 
   return {
-    index: element.index || index,
-    name: element.name,
+    index:   element.index || index,
+    name:    element.name,
     element: {
-      name: element.name,
+      name:  element.name,
       value: {
-        name: element.name,
+        name:  element.name,
         index: element.index || index,
         lower: element.name.toLowerCase(),
         upper: element.name.toUpperCase(),
@@ -37,7 +37,7 @@ export class Enum {
    * @param {String} values a single comma delimited string or separate
    *                        string parameters
    */
-  constructor( ...elements ) {
+  constructor (...elements) {
 
     elements = elements || [];
 
@@ -45,11 +45,13 @@ export class Enum {
     // and replace the single value with all of the split strings
     elements.forEach(
       (element, index, array) => {
-        if ( typeof element !== 'string' ) {
+        if (typeof element !== 'string') {
           return;
         }
         Array.prototype.splice.apply(
-          array, [index, 1].concat( element.split(',') )
+          array,
+          [ index, 1 ]
+            .concat(element.split(','))
         );
       }
     );
@@ -58,8 +60,8 @@ export class Enum {
     elements.forEach(
       (element, index) => {
 
-        const el = createStringElement( element, index ) ||
-          createObjectElement( element, index );
+        const elem = createStringElement(element, index) ||
+          createObjectElement(element, index);
 
         // enum = new Enum('Foo','Bar','FooBar')
         //  enum.Foo === 0, enum.Bar === 1, enum.FooBar === 2
@@ -83,12 +85,12 @@ export class Enum {
         //  enum.FOO === 0
         //  enum.foo === 0
         // ...
-        this[el.index] = el.element;
-        this[el.name] = el.index;
-        this[el.name.toLowerCase()] = el.index;
-        this[el.name.toUpperCase()] = el.index;
+        this[elem.index] = elem.element;
+        this[elem.name] = elem.index;
+        this[elem.name.toLowerCase()] = elem.index;
+        this[elem.name.toUpperCase()] = elem.index;
 
-        elements[index] = el;
+        elements[index] = elem;
       }
     );
 

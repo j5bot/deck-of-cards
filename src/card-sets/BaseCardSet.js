@@ -1,32 +1,33 @@
 export class BaseCardSet {
 
-  constructor( cardArray ) {
+  constructor (cardArray) {
 
-    if ( cardArray ) {
-      this.cards = new Set( cardArray );
+    if (cardArray) {
+      this.cards = new Set(cardArray);
     } else {
       this.cards = new Set();
     }
 
-    this.cardArray = [ ...this.cards ];
+    this.cardArray = [...this.cards];
 
   }
 
-  size() {
+  size () {
     return this.cards.size;
   }
 
-  iterator() {
+  iterator () {
     return this.cards.values();
   }
 
-  array() {
+  array () {
     return this.cardArray || [];
   }
 
-  get( index ) {
+  get (index) {
     return this.cardArray[ index ];
   }
 
-};
+}
+
 export default BaseCardSet;

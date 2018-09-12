@@ -41,51 +41,57 @@ describe('playing card', () => {
 
   describe('every card', () => {
 
+    const testEachCard = (suit, suitIndex, name, nameIndex) => {
+
+      if (nameIndex === 0) {
+        return;
+      }
+
+      const card = new PlayingCard(
+        nameIndex,
+        Suits[suit]
+      );
+
+      const description = `${card.name} of ${card.suit.name}`;
+
+      describe(description, () => {
+
+        test('suit name', () => {
+          expect(card.suit.name).toBe(suit);
+        });
+        test('name', () => {
+          expect(card.name).toBe(
+            names[nameIndex]
+          );
+        });
+        test('value', () => {
+          expect(card.value).toBe(values[nameIndex]);
+        });
+        test('description', () => {
+          expect(card.description.toLowerCase()).toBe(description.toLowerCase());
+        });
+        test('suit value', () => {
+          expect(card.suit.value).toBe(
+            Suits[card.suit.name]
+          );
+        });
+        test('suit enum value', () => {
+          expect(
+            Suits[card.suit.value]
+          ).toBe(card.suit.name);
+        });
+
+      });
+
+    };
+
     suits.forEach(
-      (suit, suiteIndex) => {
+      (suit, suitIndex) => {
 
         names.forEach(
           (name, nameIndex) => {
 
-            if ( nameIndex === 0 ) {
-              return;
-            }
-
-            const card = new PlayingCard(
-              nameIndex,
-              Suits[suit]
-            );
-
-            const description = `${card.name} of ${card.suit.name}`;
-
-            describe(description, () => {
-
-              test('suit name', () => {
-                expect(card.suit.name).toBe(suit);
-              });
-              test('name', () => {
-                expect(card.name).toBe(
-                  names[nameIndex]
-                );
-              });
-              test('value', () => {
-                expect(card.value).toBe(values[nameIndex]);
-              });
-              test('description', () => {
-                expect(card.description.toLowerCase()).toBe(description.toLowerCase());
-              });
-              test('suit value', () => {
-                expect(card.suit.value).toBe(
-                  Suits[card.suit.name]
-                );
-              });
-              test('suit enum value', () => {
-                expect(
-                  Suits[card.suit.value]
-                ).toBe(card.suit.name);
-              });
-
-            });
+            testEachCard(suit, suitIndex, name, nameIndex);
 
           }
         );

@@ -48,8 +48,26 @@ Created a Deck class.
 
 * [x] Iterates through all suits, creating a card of each name for each suit and adding it to the set of cards
 
+## Create a sub class implementing operations on a set of cards ##
+
+* [ ]  Include a member method implementing a shuffling algorithm.
+* 
+	* Include a private member method implementing a single randomization of the set.
+* Include a member method implementing a linear card dealing algorithm (FIFO).
+* Include a member method implementing a random card dealing algorithm (WTFO).
+* Optional: Include a member method implementing the discarding of cards.
+* Optional: Include a member set containing objects representing playing cards which have been discarded (LIFO).
+
 # Reference #
 		
+1. Create a sub class implementing operations on a set of cards.
+	* Include a member method implementing a shuffling algorithm.
+		* Include a private member method implementing a single randomization of the set.
+	* Include a member method implementing a linear card dealing algorithm (FIFO).
+	* Include a member method implementing a random card dealing algorithm (WTFO).
+	* Optional: Include a member method implementing the discarding of cards.
+	* Optional: Include a member set containing objects representing playing cards which have been discarded (LIFO).
+
 1. Optional: Create a class representing a set of sets of cards.
 	* Include a member decks of cards in the set.
 	* Include a no parameter constructor which initializes the set of sets with a single set of cards.
@@ -58,11 +76,3 @@ Created a Deck class.
 	* Include a member method to get an iterator which returns cards from the set.
 	* Include a member method to get the size of the set (compound).
 	* Include a member method to get a single card by index (compound).
-
-1. Create a sub class implementing operations on a set of cards.
-	* Include a member method implementing a shuffling algorithm.
-		* Include a private member method implementing a single randomization of the set.
-	* Include a member method implementing a linear card dealing algorithm (FIFO).
-	* Include a member method implementing a random card dealing algorithm (WTFO).
-	* Optional: Include a member method implementing the discarding of cards.
-	* Optional: Include a member set containing objects representing playing cards which have been discarded (LIFO).
