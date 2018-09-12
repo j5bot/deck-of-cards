@@ -12,7 +12,7 @@
     "coverage:view": "open coverage/lcov-report/index.html",
     "lint": "eslint **/*.js",
     "test": "jest",
-    "watch": "jest --watch"
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",

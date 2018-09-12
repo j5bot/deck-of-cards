@@ -21,7 +21,7 @@ export class BaseCardSet {
   }
 
   array () {
-    return this.cardArray || [];
+    return this.cardArray;
   }
 
   get (index) {

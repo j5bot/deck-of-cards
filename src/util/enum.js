@@ -11,7 +11,7 @@ const createStringElement = (element, index) => {
 };
 
 const createObjectElement = (element, index) => {
-  if (typeof object !== 'object') {
+  if (typeof element !== 'object') {
     return false;
   }
 
@@ -39,8 +39,6 @@ export class Enum {
    */
   constructor (...elements) {
 
-    elements = elements || [];
-
     // Iterate through values and split any comma-separated strings,
     // and replace the single value with all of the split strings
     elements.forEach(
@@ -57,11 +55,15 @@ export class Enum {
     );
 
     // Assign
-    elements.forEach(
+    this.elements = elements.map(
       (element, index) => {
 
         const elem = createStringElement(element, index) ||
           createObjectElement(element, index);
+
+        if (!elem) {
+          return elem;
+        }
 
         // enum = new Enum('Foo','Bar','FooBar')
         //  enum.Foo === 0, enum.Bar === 1, enum.FooBar === 2
@@ -91,12 +93,16 @@ export class Enum {
         this[elem.name.toUpperCase()] = elem.index;
 
         elements[index] = elem;
+
+        return elem;
+      }
+    ).filter(
+      (element) => {
+        return element;
       }
     );
 
-    this.elements = elements;
-
-    this.length = elements.length;
+    this.length = this.elements.length;
 
   }
 
