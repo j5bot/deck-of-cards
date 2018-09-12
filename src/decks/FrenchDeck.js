@@ -1,6 +1,6 @@
 import { BaseCardSet } from '../card-sets/BaseCardSet.js';
 import { PlayingCard } from '../cards/FrenchPlayingCard.js';
-import { Suits } from '../cards/suits.js';
+import { Suits } from '../cards/Suits.js';
 import { names } from '../cards/french-deck-names.js';
 
 export class Deck extends BaseCardSet {
