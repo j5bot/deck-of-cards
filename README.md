@@ -64,4 +64,4 @@ Follow the principle of least surprise in making reasonable decisions regarding 
 
 ## Specifics ##
 
-See [NOTES.md](notes.md)
+See [NOTES.md](NOTES.md)
