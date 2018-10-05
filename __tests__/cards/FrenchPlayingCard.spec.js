@@ -14,7 +14,7 @@ describe('playing card', () => {
 
   describe('single card', () => {
 
-    const aceOfSpades = new PlayingCard(1, Suits.SPADES);
+    const aceOfSpades = new PlayingCard(0, Suits.SPADES);
 
     test('suit name', () => {
       expect(aceOfSpades.suit.name).toBe('Spades');
@@ -43,9 +43,9 @@ describe('playing card', () => {
 
     const testEachCard = (suit, suitIndex, name, nameIndex) => {
 
-      if (nameIndex === 0) {
-        return;
-      }
+      // if (nameIndex === 0) {
+      //   return;
+      // }
 
       const card = new PlayingCard(
         nameIndex,

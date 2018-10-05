@@ -29,9 +29,9 @@ describe('card deck', () => {
 
       const testEachCard = (suit, suitIndex, name, nameIndex) => {
 
-        if (nameIndex === 0) {
-          return;
-        }
+        // if (nameIndex === 0) {
+        //   return;
+        // }
 
         const expectCard = new PlayingCard(
           nameIndex, suitIndex

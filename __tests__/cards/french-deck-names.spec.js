@@ -6,7 +6,7 @@ describe('names', () => {
 
     expect(names).toEqual(
       [
-        undefined,
+        // undefined,
         'Ace',
         'Two',
         'Three',
