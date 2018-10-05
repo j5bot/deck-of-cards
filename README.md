@@ -1,6 +1,44 @@
-# Playing Cards #
+# deck-of-cards #
 
 An exercise in the implementation of playing cards in ES6.
+
+## Requirements ##
+
+`deck-of-card	s` requires `nvm` and/or versions of `node` >= `10.8.0` and either `npm` >= `6.3.0` or `yarn` >= `1.9.4	`.
+
+## Setup ##
+
+1. If using `nvm`, execute the following command in a terminal:
+   
+   `nvm use`
+1. To install `node` dependencies with `npm`, execute the following command in a terminal:
+
+	`npm install`
+	
+1. To install `node` dependencies with `yarn`, execute the following commands in a terminal:
+
+	```
+	rm package-lock.json
+	yarn install
+	```
+	
+1. To run the unit tests and create a code coverage report, execute the following command in a terminal:
+
+   `npm run coverage`
+   
+   or
+   
+   `yarn run coverage`
+   
+1. To view the generated coverage report, execute the following command in a terminal:
+
+	`npm run coverage:view`
+	
+	or
+	
+	`yarn run coverage:view`
+
+
 
 ## Abstract (Problem Statement) ##
 
@@ -18,15 +56,12 @@ Follow the principle of least surprise in making reasonable decisions regarding 
 
 ## Implementation Plan ##
 
-### General ###
-
 1. Create an empty class.
 1. Create a unit test for that class.
 1. Create an unimplemented member of the class.
 1. Create a unit test for that member.
 1. Repeat for all members and classes.
 
-1. Create an application which exercises the functionality of the classes as they are intended to be used, adding user interface elements.
+## Specifics ##
 
-### Specifics ###
-
+See [NOTES.md](NOTES.md)

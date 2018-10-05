@@ -1,6 +1,6 @@
 {
   "name": "deck-of-cards",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "private": true,
   "description": "An implementation of a deck of cards in ES6.",
   "main": "index.js",
@@ -29,7 +29,7 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^5.5.0",
     "eslint-config-j5bot": "^1.1.5",
-    "eslint-plugin-j5bot": "0.0.1",
+    "eslint-plugin-j5bot": "^0.0.1",
     "eslint-plugin-jest": "^21.22.0",
     "jest": "^23.5.0"
   },
