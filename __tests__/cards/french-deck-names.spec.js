@@ -4,23 +4,8 @@ describe('names', () => {
 
   test('array', () => {
 
-    expect(names).toEqual(
-      [
-        // undefined,
-        'Ace',
-        'Two',
-        'Three',
-        'Four',
-        'Five',
-        'Six',
-        'Seven',
-        'Eight',
-        'Nine',
-        'Ten',
-        'Jack',
-        'Queen',
-        'King'
-      ]
+    expect(names.join(',')).toEqual(
+      'Ace,Two,Three,Four,Five,Six,Seven,Eight,Nine,Ten,Jack,Queen,King'
     );
 
   });
