@@ -1,3 +1,4 @@
+[![CircleCI: j5bot/deck-of-cards](https://circleci.com/gh/j5bot/deck-of-cards/tree/master.svg?style=svg)](https://circleci.com/gh/j5bot/deck-of-cards/tree/master)
 [![CodeFactor: j5bot/deck-of-cards](https://www.codefactor.io/repository/github/j5bot/deck-of-cards/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/j5bot/deck-of-cards/)
 
 # deck-of-cards #
@@ -11,33 +12,33 @@ An exercise in the implementation of playing cards in ES6.
 ## Setup ##
 
 1. If using `nvm`, execute the following command in a terminal:
-   
+
    `nvm use`
 1. To install `node` dependencies with `npm`, execute the following command in a terminal:
 
 	`npm install`
-	
+
 1. To install `node` dependencies with `yarn`, execute the following commands in a terminal:
 
 	```
 	rm package-lock.json
 	yarn install
 	```
-	
+
 1. To run the unit tests and create a code coverage report, execute the following command in a terminal:
 
    `npm run coverage`
-   
+
    or
-   
+
    `yarn run coverage`
-   
+
 1. To view the generated coverage report, execute the following command in a terminal:
 
 	`npm run coverage:view`
-	
+
 	or
-	
+
 	`yarn run coverage:view`
 
 
