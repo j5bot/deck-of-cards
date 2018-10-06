@@ -1,3 +1,5 @@
+[![CodeFactor: j5bot/deck-of-cards](https://www.codefactor.io/repository/github/j5bot/deck-of-cards/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/j5bot/deck-of-cards/)
+
 # deck-of-cards #
 
 An exercise in the implementation of playing cards in ES6.
