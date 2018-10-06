@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for util/Enum.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">All files</a> / <a href="index.html">util</a> Enum.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>24/24</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>14/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>6/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>24/24</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112</td><td class="line-coverage quiet"><span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const createStringElement = (element, index) =&gt; {
+  if (typeof element !== 'string') {
+    return false;
+  }
+&nbsp;
+  return {
+    index,
+    name: element,
+    element
+  };
+};
+&nbsp;
+const createObjectElement = (element, index) =&gt; {
+  if (typeof element !== 'object') {
+    return false;
+  }
+&nbsp;
+  return {
+    index:   element.index || index,
+    name:    element.name,
+    element: {
+      name:  element.name,
+      value: {
+        name:  element.name,
+        index: element.index || index,
+        lower: element.name.toLowerCase(),
+        upper: element.name.toUpperCase(),
+        value: element.value
+      }
+    }
+  };
+};
+&nbsp;
+export class Enum {
+  /**
+   *
+   * @param {String} values a single comma delimited string or separate
+   *                        string parameters
+   */
+  constructor (...elements) {
+&nbsp;
+    // Iterate through values and split any comma-separated strings,
+    // and replace the single value with all of the split strings
+    elements.forEach(
+      (element, index, array) =&gt; {
+        if (typeof element !== 'string') {
+          return;
+        }
+        Array.prototype.splice.apply(
+          array,
+          [ index, 1 ]
+            .concat(element.split(','))
+        );
+      }
+    );
+&nbsp;
+    // Assign
+    this.elements = elements.map(
+      (element, index) =&gt; {
+&nbsp;
+        const elem = createStringElement(element, index) ||
+          createObjectElement(element, index);
+&nbsp;
+        if (!elem) {
+          return elem;
+        }
+&nbsp;
+        // enum = new Enum('Foo','Bar','FooBar')
+        //  enum.Foo === 0, enum.Bar === 1, enum.FooBar === 2
+        //  enum.foo === 0, enum.bar === 1, enum.foobar === 2
+        //  enum.FOO === 0, enum.BAR === 1, enum.FOOBAR === 2
+        //  enum[0] === 'Foo', enum[1] === 'Bar', enum[2] === 'FooBar'
+        // enum = new Enum('Foo,Bar,FooBar')
+        //  enum.Foo === 0, enum.Bar === 1, enum.FooBar === 2
+        //  enum.foo === 0, enum.bar === 1, enum.foobar === 2
+        //  enum.FOO === 0, enum.BAR === 1, enum.FOOBAR === 2
+        //  enum[0] === 'Foo', enum[1] === 'Bar', enum[2] === 'FooBar'
+        // enum = new Enum({ name: 'Foo', index: 0, value: 1 })
+        //  enum[0] === {
+        //      name: 'Foo',
+        //      lower: 'foo',
+        //      upper: 'FOO',
+        //      index: 0,
+        //      value: 1
+        //    }
+        //  enum.Foo === 0
+        //  enum.FOO === 0
+        //  enum.foo === 0
+        // ...
+        this[elem.index] = elem.element;
+        this[elem.name] = elem.index;
+        this[elem.name.toLowerCase()] = elem.index;
+        this[elem.name.toUpperCase()] = elem.index;
+&nbsp;
+        elements[index] = elem;
+&nbsp;
+        return elem;
+      }
+    ).filter(
+      (element) =&gt; {
+        return element;
+      }
+    );
+&nbsp;
+    this.length = this.elements.length;
+&nbsp;
+  }
+&nbsp;
+}
+&nbsp;
+export default Enum;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Oct 06 2018 13:56:53 GMT-0400 (Eastern Daylight Time)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

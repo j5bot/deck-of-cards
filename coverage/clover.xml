@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1538848615120" clover="3.2.0">
+  <project timestamp="1538848615120" name="All files">
+    <metrics statements="111" coveredstatements="111" conditionals="38" coveredconditionals="38" methods="31" coveredmethods="31" elements="180" coveredelements="180" complexity="0" loc="111" ncloc="111" packages="6" files="13" classes="13">
+      <package name="card-sets">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <file name="BaseCardSet.js" path="/Users/j5/Code/deck-of-cards/src/card-sets/BaseCardSet.js">
+          <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+          <line num="5" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="7" type="stmt"/>
+          <line num="11" count="8" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="20" count="8" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+          <line num="28" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="cards">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="BaseCard.js" path="/Users/j5/Code/deck-of-cards/src/cards/BaseCard.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="377" type="stmt"/>
+        </file>
+        <file name="FrenchPlayingCard.js" path="/Users/j5/Code/deck-of-cards/src/cards/FrenchPlayingCard.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="365" type="stmt"/>
+          <line num="12" count="365" type="stmt"/>
+          <line num="13" count="365" type="stmt"/>
+          <line num="14" count="365" type="stmt"/>
+          <line num="17" count="365" type="stmt"/>
+          <line num="21" count="365" type="stmt"/>
+        </file>
+        <file name="Suits.js" path="/Users/j5/Code/deck-of-cards/src/cards/Suits.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="5" type="stmt"/>
+        </file>
+        <file name="french-deck-names.js" path="/Users/j5/Code/deck-of-cards/src/cards/french-deck-names.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="5" type="stmt"/>
+        </file>
+        <file name="french-deck-values.js" path="/Users/j5/Code/deck-of-cards/src/cards/french-deck-values.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="dealer">
+        <metrics statements="25" coveredstatements="25" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
+        <file name="dealer.js" path="/Users/j5/Code/deck-of-cards/src/dealer/dealer.js">
+          <metrics statements="25" coveredstatements="25" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="56" type="cond" truecount="2" falsecount="0"/>
+          <line num="3" count="56" type="stmt"/>
+          <line num="5" count="56" type="stmt"/>
+          <line num="6" count="60" type="stmt"/>
+          <line num="9" count="56" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="55" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="5" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="55" type="stmt"/>
+          <line num="23" count="55" type="cond" truecount="2" falsecount="0"/>
+          <line num="24" count="54" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="5" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="44" count="111" type="cond" truecount="3" falsecount="0"/>
+          <line num="46" count="55" type="stmt"/>
+          <line num="49" count="56" type="stmt"/>
+          <line num="54" count="2" type="stmt"/>
+          <line num="55" count="2" type="stmt"/>
+          <line num="56" count="2" type="stmt"/>
+          <line num="58" count="104" type="stmt"/>
+        </file>
+      </package>
+      <package name="decks">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="DealableFrenchDeck.js" path="/Users/j5/Code/deck-of-cards/src/decks/DealableFrenchDeck.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="FrenchDeck.js" path="/Users/j5/Code/deck-of-cards/src/decks/FrenchDeck.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="9" count="6" type="stmt"/>
+          <line num="11" count="6" type="stmt"/>
+          <line num="13" count="6" type="stmt"/>
+          <line num="15" count="6" type="stmt"/>
+          <line num="17" count="24" type="stmt"/>
+          <line num="22" count="312" type="stmt"/>
+          <line num="26" count="312" type="stmt"/>
+          <line num="32" count="6" type="stmt"/>
+        </file>
+        <file name="ShufflableFrenchDeck.js" path="/Users/j5/Code/deck-of-cards/src/decks/ShufflableFrenchDeck.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="shuffler">
+        <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
+        <file name="shuffler.js" path="/Users/j5/Code/deck-of-cards/src/shuffler/shuffler.js">
+          <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="68" type="stmt"/>
+          <line num="5" count="2108" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="22" count="2049" type="stmt"/>
+          <line num="24" count="2049" type="stmt"/>
+          <line num="25" count="2049" type="cond" truecount="2" falsecount="0"/>
+          <line num="26" count="1581" type="stmt"/>
+          <line num="28" count="468" type="cond" truecount="2" falsecount="0"/>
+          <line num="29" count="468" type="stmt"/>
+          <line num="31" count="468" type="stmt"/>
+          <line num="35" count="9" type="stmt"/>
+          <line num="38" count="9" type="stmt"/>
+          <line num="40" count="9" type="stmt"/>
+          <line num="46" count="59" type="stmt"/>
+          <line num="50" count="156" type="stmt"/>
+          <line num="55" count="59" type="stmt"/>
+          <line num="56" count="59" type="stmt"/>
+          <line num="58" count="59" type="cond" truecount="2" falsecount="0"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="62" count="58" type="stmt"/>
+          <line num="64" count="58" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="70" count="7" type="stmt"/>
+        </file>
+      </package>
+      <package name="util">
+        <metrics statements="32" coveredstatements="32" conditionals="16" coveredconditionals="16" methods="7" coveredmethods="7"/>
+        <file name="Enum.js" path="/Users/j5/Code/deck-of-cards/src/util/Enum.js">
+          <metrics statements="24" coveredstatements="24" conditionals="14" coveredconditionals="14" methods="6" coveredmethods="6"/>
+          <line num="1" count="6" type="stmt"/>
+          <line num="2" count="31" type="cond" truecount="2" falsecount="0"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="6" count="28" type="stmt"/>
+          <line num="13" count="6" type="stmt"/>
+          <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="44" count="13" type="stmt"/>
+          <line num="46" count="13" type="cond" truecount="2" falsecount="0"/>
+          <line num="47" count="3" type="stmt"/>
+          <line num="49" count="10" type="stmt"/>
+          <line num="58" count="13" type="stmt"/>
+          <line num="61" count="31" type="cond" truecount="2" falsecount="0"/>
+          <line num="64" count="31" type="cond" truecount="2" falsecount="0"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="90" count="30" type="stmt"/>
+          <line num="91" count="30" type="stmt"/>
+          <line num="92" count="30" type="stmt"/>
+          <line num="93" count="30" type="stmt"/>
+          <line num="95" count="30" type="stmt"/>
+          <line num="97" count="30" type="stmt"/>
+          <line num="101" count="31" type="stmt"/>
+          <line num="105" count="13" type="stmt"/>
+        </file>
+        <file name="random.js" path="/Users/j5/Code/deck-of-cards/src/util/random.js">
+          <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="5" count="2555" type="stmt"/>
+          <line num="7" count="2555" type="stmt"/>
+          <line num="9" count="2555" type="stmt"/>
+          <line num="10" count="2555" type="stmt"/>
+          <line num="12" count="2555" type="cond" truecount="2" falsecount="0"/>
+          <line num="13" count="447" type="stmt"/>
+          <line num="15" count="2108" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
