@@ -1,5 +1,4 @@
 export const names = [
-  // undefined,
   'Ace',
   'Two',
   'Three',

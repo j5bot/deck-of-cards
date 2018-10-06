@@ -43,10 +43,6 @@ describe('playing card', () => {
 
     const testEachCard = (suit, suitIndex, name, nameIndex) => {
 
-      // if (nameIndex === 0) {
-      //   return;
-      // }
-
       const card = new PlayingCard(
         nameIndex,
         Suits[suit]

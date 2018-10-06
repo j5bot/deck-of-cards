@@ -63,6 +63,8 @@ export const shuffler = (Base) => class extends Base {
 
     card.dealt = true;
 
+    return card;
+
   }
 
   shuffle (randomizations) {

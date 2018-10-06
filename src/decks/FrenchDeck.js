@@ -16,9 +16,6 @@ export class Deck extends BaseCardSet {
       (suit, suitIndex) => {
         names.forEach(
           (name, nameIndex) => {
-            // if (nameIndex === 0) {
-            //   return;
-            // }
             const card = new PlayingCard(
               nameIndex, suitIndex
             );
