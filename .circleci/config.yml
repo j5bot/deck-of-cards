@@ -36,3 +36,5 @@ jobs:
       # run tests!
       - run: npm run test
       - run: if [ $? -eq 0 ]; then bash <(curl -s https://codecov.io/bash); fi
+      - run: curl -s https://codecov.io/gh/j5bot/deck-of-cards/branch/master/graphs/sunburst.svg
+      - run: FILE=sunburst.svg curl -H "Authorization: token $GITHUB_TOKEN" -H "Content-Type: $(file -b --mime-type $FILE)" --data-binary @$FILE "https://uploads.github.com/repos/hubot/singularity/releases/123/assets?name=$(basename $FILE)"
