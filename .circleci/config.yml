@@ -44,18 +44,17 @@ jobs:
 
       - run:
           name: Install JUnit coverage reporter
-          command: npm install --dev jest-junit
+          command: npm install --only=dev jest-junit
 
       - run:
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
           name: Run tests with JUnit as reporter
-          command: jest --runInBand --ci --reporters=default --reporters=jest-junit
+          command: npm run test -- --runInBand --ci --reporters=default --reporters=jest-junit
 
       - run:
           name: Generate eslint report
-          command: eslint --format junit -o reports/junit/js-lint-results.xml
-
-          environment:
-            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+          command: npm run lint -- --format junit -o reports/junit/js-lint-results.xml
 
       - store_test_results:
           path: reports/junit
