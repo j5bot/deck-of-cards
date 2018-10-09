@@ -34,5 +34,30 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm run coverage
-      - run: if [ $? -eq 0 ]; then bash <(curl -s https://codecov.io/bash); fi
+      - run:
+        name: Run Tests/Coverage
+        command: npm run coverage
+
+      - run:
+        name: Update CodeCov.io based on coverage results
+        command: if [ $? -eq 0 ]; then bash <(curl -s https://codecov.io/bash); fi
+
+      - run:
+        name: Install JUnit coverage reporter
+        command: npm add --dev jest-junit
+
+      - run:
+        name: Run tests with JUnit as reporter
+        command: jest --runInBand --ci --reporters=default --reporters=jest-junit
+
+      - run:
+        name: Generate eslint report
+        command: eslint --format junit -o reports/junit/js-lint-results.xml
+
+        environment:
+          JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+
+      - store_test_results:
+          path: reports/junit
+      - store_artifacts:
+          path: reports/junit
