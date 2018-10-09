@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/card-sets/BaseCardSet.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/card-sets/BaseCardSet.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/BaseCard.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/BaseCard.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/french-deck-names.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/french-deck-names.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/french-deck-values.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/french-deck-values.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/FrenchPlayingCard.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/FrenchPlayingCard.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/Suits.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/cards/Suits.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/decks/DealableFrenchDeck.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/decks/DealableFrenchDeck.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/decks/FrenchDeck.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/decks/FrenchDeck.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/decks/ShufflableFrenchDeck.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/decks/ShufflableFrenchDeck.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/__tests__/util/Enum.spec.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/__tests__/util/Enum.spec.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/card-sets/BaseCardSet.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/card-sets/BaseCardSet.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/cards/BaseCard.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/cards/BaseCard.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/cards/french-deck-names.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/cards/french-deck-names.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/cards/french-deck-values.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/cards/french-deck-values.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/cards/FrenchPlayingCard.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/cards/FrenchPlayingCard.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/cards/Suits.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/cards/Suits.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/dealer/dealer.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/dealer/dealer.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/decks/DealableFrenchDeck.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/decks/DealableFrenchDeck.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/decks/FrenchDeck.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/decks/FrenchDeck.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/decks/ShufflableFrenchDeck.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/decks/ShufflableFrenchDeck.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/shuffler/shuffler.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/shuffler/shuffler.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/util/Enum.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/util/Enum.js" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="/Users/j5/Code/deck-of-cards/src/util/random.js">
+<testcase time="0" name="/Users/j5/Code/deck-of-cards/src/util/random.js" />
+</testsuite>
+</testsuites>

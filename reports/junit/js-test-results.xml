@@ -1,0 +1,956 @@
+<testsuites name="jest tests" tests="467" failures="0" time="180.431">
+  <testsuite name="dealer" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:00:19" time="92.734" tests="113">
+    <testcase classname="dealer dealable fifo Ace of Clubs" name="dealer dealable fifo Ace of Clubs" time="0.005">
+    </testcase>
+    <testcase classname="dealer dealable fifo Two of Clubs" name="dealer dealable fifo Two of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Three of Clubs" name="dealer dealable fifo Three of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Four of Clubs" name="dealer dealable fifo Four of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Five of Clubs" name="dealer dealable fifo Five of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Six of Clubs" name="dealer dealable fifo Six of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Seven of Clubs" name="dealer dealable fifo Seven of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Eight of Clubs" name="dealer dealable fifo Eight of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Nine of Clubs" name="dealer dealable fifo Nine of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ten of Clubs" name="dealer dealable fifo Ten of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Jack of Clubs" name="dealer dealable fifo Jack of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Queen of Clubs" name="dealer dealable fifo Queen of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo King of Clubs" name="dealer dealable fifo King of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ace of Diamonds" name="dealer dealable fifo Ace of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Two of Diamonds" name="dealer dealable fifo Two of Diamonds" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Three of Diamonds" name="dealer dealable fifo Three of Diamonds" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Four of Diamonds" name="dealer dealable fifo Four of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Five of Diamonds" name="dealer dealable fifo Five of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Six of Diamonds" name="dealer dealable fifo Six of Diamonds" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Seven of Diamonds" name="dealer dealable fifo Seven of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Eight of Diamonds" name="dealer dealable fifo Eight of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Nine of Diamonds" name="dealer dealable fifo Nine of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ten of Diamonds" name="dealer dealable fifo Ten of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Jack of Diamonds" name="dealer dealable fifo Jack of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Queen of Diamonds" name="dealer dealable fifo Queen of Diamonds" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo King of Diamonds" name="dealer dealable fifo King of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ace of Hearts" name="dealer dealable fifo Ace of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Two of Hearts" name="dealer dealable fifo Two of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Three of Hearts" name="dealer dealable fifo Three of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Four of Hearts" name="dealer dealable fifo Four of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Five of Hearts" name="dealer dealable fifo Five of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Six of Hearts" name="dealer dealable fifo Six of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Seven of Hearts" name="dealer dealable fifo Seven of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Eight of Hearts" name="dealer dealable fifo Eight of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Nine of Hearts" name="dealer dealable fifo Nine of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ten of Hearts" name="dealer dealable fifo Ten of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Jack of Hearts" name="dealer dealable fifo Jack of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Queen of Hearts" name="dealer dealable fifo Queen of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo King of Hearts" name="dealer dealable fifo King of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ace of Spades" name="dealer dealable fifo Ace of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Two of Spades" name="dealer dealable fifo Two of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Three of Spades" name="dealer dealable fifo Three of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Four of Spades" name="dealer dealable fifo Four of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Five of Spades" name="dealer dealable fifo Five of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Six of Spades" name="dealer dealable fifo Six of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Seven of Spades" name="dealer dealable fifo Seven of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Eight of Spades" name="dealer dealable fifo Eight of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Nine of Spades" name="dealer dealable fifo Nine of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo Ten of Spades" name="dealer dealable fifo Ten of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Jack of Spades" name="dealer dealable fifo Jack of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo Queen of Spades" name="dealer dealable fifo Queen of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable fifo King of Spades" name="dealer dealable fifo King of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable fifo unavailable card unavailable" name="dealer dealable fifo unavailable card unavailable" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo King of Clubs" name="dealer dealable wtfo King of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Eight of Diamonds" name="dealer dealable wtfo Eight of Diamonds" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo King of Diamonds" name="dealer dealable wtfo King of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Jack of Clubs" name="dealer dealable wtfo Jack of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Queen of Clubs" name="dealer dealable wtfo Queen of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Five of Hearts" name="dealer dealable wtfo Five of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Queen of Spades" name="dealer dealable wtfo Queen of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Nine of Clubs" name="dealer dealable wtfo Nine of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Eight of Hearts" name="dealer dealable wtfo Eight of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ace of Spades" name="dealer dealable wtfo Ace of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ace of Clubs" name="dealer dealable wtfo Ace of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Seven of Clubs" name="dealer dealable wtfo Seven of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Five of Clubs" name="dealer dealable wtfo Five of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Six of Hearts" name="dealer dealable wtfo Six of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Six of Clubs" name="dealer dealable wtfo Six of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Jack of Spades" name="dealer dealable wtfo Jack of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ten of Diamonds" name="dealer dealable wtfo Ten of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Four of Spades" name="dealer dealable wtfo Four of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Four of Hearts" name="dealer dealable wtfo Four of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ace of Hearts" name="dealer dealable wtfo Ace of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo King of Spades" name="dealer dealable wtfo King of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ten of Spades" name="dealer dealable wtfo Ten of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Four of Clubs" name="dealer dealable wtfo Four of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Two of Hearts" name="dealer dealable wtfo Two of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Three of Spades" name="dealer dealable wtfo Three of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Queen of Diamonds" name="dealer dealable wtfo Queen of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Jack of Hearts" name="dealer dealable wtfo Jack of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo King of Hearts" name="dealer dealable wtfo King of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Two of Diamonds" name="dealer dealable wtfo Two of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Eight of Clubs" name="dealer dealable wtfo Eight of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Seven of Hearts" name="dealer dealable wtfo Seven of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Six of Spades" name="dealer dealable wtfo Six of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Nine of Hearts" name="dealer dealable wtfo Nine of Hearts" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Two of Clubs" name="dealer dealable wtfo Two of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Jack of Diamonds" name="dealer dealable wtfo Jack of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Queen of Hearts" name="dealer dealable wtfo Queen of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ten of Hearts" name="dealer dealable wtfo Ten of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Three of Diamonds" name="dealer dealable wtfo Three of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Eight of Spades" name="dealer dealable wtfo Eight of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Six of Diamonds" name="dealer dealable wtfo Six of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ten of Clubs" name="dealer dealable wtfo Ten of Clubs" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Five of Spades" name="dealer dealable wtfo Five of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Nine of Diamonds" name="dealer dealable wtfo Nine of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Three of Hearts" name="dealer dealable wtfo Three of Hearts" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Two of Spades" name="dealer dealable wtfo Two of Spades" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Ace of Diamonds" name="dealer dealable wtfo Ace of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Nine of Spades" name="dealer dealable wtfo Nine of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Four of Diamonds" name="dealer dealable wtfo Four of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Three of Clubs" name="dealer dealable wtfo Three of Clubs" time="0.001">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Seven of Spades" name="dealer dealable wtfo Seven of Spades" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Seven of Diamonds" name="dealer dealable wtfo Seven of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo Five of Diamonds" name="dealer dealable wtfo Five of Diamonds" time="0">
+    </testcase>
+    <testcase classname="dealer dealable wtfo unavailable card unavailable" name="dealer dealable wtfo unavailable card unavailable" time="0">
+    </testcase>
+    <testcase classname="dealer resetable reset fifo first deal is first card" name="dealer resetable reset fifo first deal is first card" time="0.001">
+    </testcase>
+    <testcase classname="dealer resetable reset fifo first deal after reset is identical" name="dealer resetable reset fifo first deal after reset is identical" time="0">
+    </testcase>
+    <testcase classname="dealer resetable reset wtfo all cards undealt" name="dealer resetable reset wtfo all cards undealt" time="0">
+    </testcase>
+    <testcase classname="dealer resetable reset wtfo after deal, one card dealt" name="dealer resetable reset wtfo after deal, one card dealt" time="0.001">
+    </testcase>
+    <testcase classname="dealer resetable reset wtfo all cards undealt after reset" name="dealer resetable reset wtfo all cards undealt after reset" time="0">
+    </testcase>
+    <testcase classname="dealer hand of cards fifo" name="dealer hand of cards fifo" time="0.001">
+    </testcase>
+    <testcase classname="dealer hand of cards wtfo" name="dealer hand of cards wtfo" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="shuffler" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:01:52" time="1.246" tests="7">
+    <testcase classname="shuffler randomize randomize" name="shuffler randomize randomize" time="0.005">
+    </testcase>
+    <testcase classname="shuffler randomize randomized length" name="shuffler randomize randomized length" time="0">
+    </testcase>
+    <testcase classname="shuffler randomize randomized order" name="shuffler randomize randomized order" time="0.001">
+    </testcase>
+    <testcase classname="shuffler shuffle shuffle length" name="shuffler shuffle shuffle length" time="0">
+    </testcase>
+    <testcase classname="shuffler shuffle shuffle order" name="shuffler shuffle shuffle order" time="0">
+    </testcase>
+    <testcase classname="shuffler shuffle sizes" name="shuffler shuffle sizes" time="0">
+    </testcase>
+    <testcase classname="shuffler shuffle reorder" name="shuffler shuffle reorder" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="base card set" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:01:53" time="1.643" tests="10">
+    <testcase classname="base card set card set members cards" name="base card set card set members cards" time="0.004">
+    </testcase>
+    <testcase classname="base card set card set members cards class" name="base card set card set members cards class" time="0.001">
+    </testcase>
+    <testcase classname="base card set card set members size" name="base card set card set members size" time="0.001">
+    </testcase>
+    <testcase classname="base card set card set members iterator" name="base card set card set members iterator" time="0">
+    </testcase>
+    <testcase classname="base card set card set members iterator methods" name="base card set card set members iterator methods" time="0.001">
+    </testcase>
+    <testcase classname="base card set card set members iterator value" name="base card set card set members iterator value" time="0">
+    </testcase>
+    <testcase classname="base card set card set members array" name="base card set card set members array" time="0.001">
+    </testcase>
+    <testcase classname="base card set card set members get" name="base card set card set members get" time="0.001">
+    </testcase>
+    <testcase classname="base card set card set cards methods add" name="base card set card set cards methods add" time="0.001">
+    </testcase>
+    <testcase classname="base card set card set cards methods size" name="base card set card set cards methods size" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="playing card" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:01:55" time="1.135" tests="318">
+    <testcase classname="playing card single card suit name" name="playing card single card suit name" time="0.002">
+    </testcase>
+    <testcase classname="playing card single card name" name="playing card single card name" time="0.001">
+    </testcase>
+    <testcase classname="playing card single card value" name="playing card single card value" time="0">
+    </testcase>
+    <testcase classname="playing card single card description" name="playing card single card description" time="0.001">
+    </testcase>
+    <testcase classname="playing card single card suit value" name="playing card single card suit value" time="0">
+    </testcase>
+    <testcase classname="playing card single card suit enum value" name="playing card single card suit enum value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ace of Clubs suit name" name="playing card every card Ace of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Clubs name" name="playing card every card Ace of Clubs name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ace of Clubs value" name="playing card every card Ace of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Clubs description" name="playing card every card Ace of Clubs description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ace of Clubs suit value" name="playing card every card Ace of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Clubs suit enum value" name="playing card every card Ace of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Clubs suit name" name="playing card every card Two of Clubs suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Two of Clubs name" name="playing card every card Two of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Clubs value" name="playing card every card Two of Clubs value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Two of Clubs description" name="playing card every card Two of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Clubs suit value" name="playing card every card Two of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Clubs suit enum value" name="playing card every card Two of Clubs suit enum value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Three of Clubs suit name" name="playing card every card Three of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Clubs name" name="playing card every card Three of Clubs name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Three of Clubs value" name="playing card every card Three of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Clubs description" name="playing card every card Three of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Clubs suit value" name="playing card every card Three of Clubs suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Three of Clubs suit enum value" name="playing card every card Three of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Clubs suit name" name="playing card every card Four of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Clubs name" name="playing card every card Four of Clubs name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Four of Clubs value" name="playing card every card Four of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Clubs description" name="playing card every card Four of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Clubs suit value" name="playing card every card Four of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Clubs suit enum value" name="playing card every card Four of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Clubs suit name" name="playing card every card Five of Clubs suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Five of Clubs name" name="playing card every card Five of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Clubs value" name="playing card every card Five of Clubs value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Five of Clubs description" name="playing card every card Five of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Clubs suit value" name="playing card every card Five of Clubs suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Five of Clubs suit enum value" name="playing card every card Five of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Clubs suit name" name="playing card every card Six of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Clubs name" name="playing card every card Six of Clubs name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Six of Clubs value" name="playing card every card Six of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Clubs description" name="playing card every card Six of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Clubs suit value" name="playing card every card Six of Clubs suit value" time="0.004">
+    </testcase>
+    <testcase classname="playing card every card Six of Clubs suit enum value" name="playing card every card Six of Clubs suit enum value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Seven of Clubs suit name" name="playing card every card Seven of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Clubs name" name="playing card every card Seven of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Clubs value" name="playing card every card Seven of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Clubs description" name="playing card every card Seven of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Clubs suit value" name="playing card every card Seven of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Clubs suit enum value" name="playing card every card Seven of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Clubs suit name" name="playing card every card Eight of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Clubs name" name="playing card every card Eight of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Clubs value" name="playing card every card Eight of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Clubs description" name="playing card every card Eight of Clubs description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Eight of Clubs suit value" name="playing card every card Eight of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Clubs suit enum value" name="playing card every card Eight of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Clubs suit name" name="playing card every card Nine of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Clubs name" name="playing card every card Nine of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Clubs value" name="playing card every card Nine of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Clubs description" name="playing card every card Nine of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Clubs suit value" name="playing card every card Nine of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Clubs suit enum value" name="playing card every card Nine of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Clubs suit name" name="playing card every card Ten of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Clubs name" name="playing card every card Ten of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Clubs value" name="playing card every card Ten of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Clubs description" name="playing card every card Ten of Clubs description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ten of Clubs suit value" name="playing card every card Ten of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Clubs suit enum value" name="playing card every card Ten of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Clubs suit name" name="playing card every card Jack of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Clubs name" name="playing card every card Jack of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Clubs value" name="playing card every card Jack of Clubs value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Jack of Clubs description" name="playing card every card Jack of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Clubs suit value" name="playing card every card Jack of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Clubs suit enum value" name="playing card every card Jack of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Clubs suit name" name="playing card every card Queen of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Clubs name" name="playing card every card Queen of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Clubs value" name="playing card every card Queen of Clubs value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Queen of Clubs description" name="playing card every card Queen of Clubs description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Clubs suit value" name="playing card every card Queen of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Clubs suit enum value" name="playing card every card Queen of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Clubs suit name" name="playing card every card King of Clubs suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Clubs name" name="playing card every card King of Clubs name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Clubs value" name="playing card every card King of Clubs value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Clubs description" name="playing card every card King of Clubs description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card King of Clubs suit value" name="playing card every card King of Clubs suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Clubs suit enum value" name="playing card every card King of Clubs suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Diamonds suit name" name="playing card every card Ace of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Diamonds name" name="playing card every card Ace of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Diamonds value" name="playing card every card Ace of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Diamonds description" name="playing card every card Ace of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Diamonds suit value" name="playing card every card Ace of Diamonds suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Diamonds suit enum value" name="playing card every card Ace of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Diamonds suit name" name="playing card every card Two of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Diamonds name" name="playing card every card Two of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Diamonds value" name="playing card every card Two of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Diamonds description" name="playing card every card Two of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Diamonds suit value" name="playing card every card Two of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Two of Diamonds suit enum value" name="playing card every card Two of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Diamonds suit name" name="playing card every card Three of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Diamonds name" name="playing card every card Three of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Diamonds value" name="playing card every card Three of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Diamonds description" name="playing card every card Three of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Diamonds suit value" name="playing card every card Three of Diamonds suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Diamonds suit enum value" name="playing card every card Three of Diamonds suit enum value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Four of Diamonds suit name" name="playing card every card Four of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Diamonds name" name="playing card every card Four of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Diamonds value" name="playing card every card Four of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Diamonds description" name="playing card every card Four of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Diamonds suit value" name="playing card every card Four of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Four of Diamonds suit enum value" name="playing card every card Four of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Diamonds suit name" name="playing card every card Five of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Diamonds name" name="playing card every card Five of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Diamonds value" name="playing card every card Five of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Diamonds description" name="playing card every card Five of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Diamonds suit value" name="playing card every card Five of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Five of Diamonds suit enum value" name="playing card every card Five of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Diamonds suit name" name="playing card every card Six of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Diamonds name" name="playing card every card Six of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Diamonds value" name="playing card every card Six of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Diamonds description" name="playing card every card Six of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Diamonds suit value" name="playing card every card Six of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Six of Diamonds suit enum value" name="playing card every card Six of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Diamonds suit name" name="playing card every card Seven of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Diamonds name" name="playing card every card Seven of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Diamonds value" name="playing card every card Seven of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Diamonds description" name="playing card every card Seven of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Diamonds suit value" name="playing card every card Seven of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Seven of Diamonds suit enum value" name="playing card every card Seven of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Diamonds suit name" name="playing card every card Eight of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Diamonds name" name="playing card every card Eight of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Diamonds value" name="playing card every card Eight of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Diamonds description" name="playing card every card Eight of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Diamonds suit value" name="playing card every card Eight of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Eight of Diamonds suit enum value" name="playing card every card Eight of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Diamonds suit name" name="playing card every card Nine of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Diamonds name" name="playing card every card Nine of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Diamonds value" name="playing card every card Nine of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Diamonds description" name="playing card every card Nine of Diamonds description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Nine of Diamonds suit value" name="playing card every card Nine of Diamonds suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Diamonds suit enum value" name="playing card every card Nine of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Diamonds suit name" name="playing card every card Ten of Diamonds suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ten of Diamonds name" name="playing card every card Ten of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Diamonds value" name="playing card every card Ten of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Diamonds description" name="playing card every card Ten of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Diamonds suit value" name="playing card every card Ten of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ten of Diamonds suit enum value" name="playing card every card Ten of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Diamonds suit name" name="playing card every card Jack of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Diamonds name" name="playing card every card Jack of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Diamonds value" name="playing card every card Jack of Diamonds value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Jack of Diamonds description" name="playing card every card Jack of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Diamonds suit value" name="playing card every card Jack of Diamonds suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Diamonds suit enum value" name="playing card every card Jack of Diamonds suit enum value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Queen of Diamonds suit name" name="playing card every card Queen of Diamonds suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Diamonds name" name="playing card every card Queen of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Diamonds value" name="playing card every card Queen of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Diamonds description" name="playing card every card Queen of Diamonds description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Queen of Diamonds suit value" name="playing card every card Queen of Diamonds suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Diamonds suit enum value" name="playing card every card Queen of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Diamonds suit name" name="playing card every card King of Diamonds suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card King of Diamonds name" name="playing card every card King of Diamonds name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Diamonds value" name="playing card every card King of Diamonds value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Diamonds description" name="playing card every card King of Diamonds description" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Diamonds suit value" name="playing card every card King of Diamonds suit value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card King of Diamonds suit enum value" name="playing card every card King of Diamonds suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Hearts suit name" name="playing card every card Ace of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Hearts name" name="playing card every card Ace of Hearts name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ace of Hearts value" name="playing card every card Ace of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Hearts description" name="playing card every card Ace of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Hearts suit value" name="playing card every card Ace of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Hearts suit enum value" name="playing card every card Ace of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Hearts suit name" name="playing card every card Two of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Hearts name" name="playing card every card Two of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Hearts value" name="playing card every card Two of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Hearts description" name="playing card every card Two of Hearts description" time="0.003">
+    </testcase>
+    <testcase classname="playing card every card Two of Hearts suit value" name="playing card every card Two of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Hearts suit enum value" name="playing card every card Two of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Hearts suit name" name="playing card every card Three of Hearts suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Three of Hearts name" name="playing card every card Three of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Hearts value" name="playing card every card Three of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Hearts description" name="playing card every card Three of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Hearts suit value" name="playing card every card Three of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Hearts suit enum value" name="playing card every card Three of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Hearts suit name" name="playing card every card Four of Hearts suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Four of Hearts name" name="playing card every card Four of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Hearts value" name="playing card every card Four of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Hearts description" name="playing card every card Four of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Hearts suit value" name="playing card every card Four of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Hearts suit enum value" name="playing card every card Four of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Hearts suit name" name="playing card every card Five of Hearts suit name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Five of Hearts name" name="playing card every card Five of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Hearts value" name="playing card every card Five of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Hearts description" name="playing card every card Five of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Hearts suit value" name="playing card every card Five of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Hearts suit enum value" name="playing card every card Five of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Hearts suit name" name="playing card every card Six of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Hearts name" name="playing card every card Six of Hearts name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Six of Hearts value" name="playing card every card Six of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Hearts description" name="playing card every card Six of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Hearts suit value" name="playing card every card Six of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Hearts suit enum value" name="playing card every card Six of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Hearts suit name" name="playing card every card Seven of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Hearts name" name="playing card every card Seven of Hearts name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Seven of Hearts value" name="playing card every card Seven of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Hearts description" name="playing card every card Seven of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Hearts suit value" name="playing card every card Seven of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Hearts suit enum value" name="playing card every card Seven of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Hearts suit name" name="playing card every card Eight of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Hearts name" name="playing card every card Eight of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Hearts value" name="playing card every card Eight of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Hearts description" name="playing card every card Eight of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Hearts suit value" name="playing card every card Eight of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Hearts suit enum value" name="playing card every card Eight of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Hearts suit name" name="playing card every card Nine of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Hearts name" name="playing card every card Nine of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Hearts value" name="playing card every card Nine of Hearts value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Nine of Hearts description" name="playing card every card Nine of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Hearts suit value" name="playing card every card Nine of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Hearts suit enum value" name="playing card every card Nine of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Hearts suit name" name="playing card every card Ten of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Hearts name" name="playing card every card Ten of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Hearts value" name="playing card every card Ten of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Hearts description" name="playing card every card Ten of Hearts description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ten of Hearts suit value" name="playing card every card Ten of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Hearts suit enum value" name="playing card every card Ten of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Hearts suit name" name="playing card every card Jack of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Hearts name" name="playing card every card Jack of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Hearts value" name="playing card every card Jack of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Hearts description" name="playing card every card Jack of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Hearts suit value" name="playing card every card Jack of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Hearts suit enum value" name="playing card every card Jack of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Hearts suit name" name="playing card every card Queen of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Hearts name" name="playing card every card Queen of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Hearts value" name="playing card every card Queen of Hearts value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Queen of Hearts description" name="playing card every card Queen of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Hearts suit value" name="playing card every card Queen of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Hearts suit enum value" name="playing card every card Queen of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Hearts suit name" name="playing card every card King of Hearts suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Hearts name" name="playing card every card King of Hearts name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Hearts value" name="playing card every card King of Hearts value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Hearts description" name="playing card every card King of Hearts description" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Hearts suit value" name="playing card every card King of Hearts suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Hearts suit enum value" name="playing card every card King of Hearts suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Spades suit name" name="playing card every card Ace of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Spades name" name="playing card every card Ace of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Spades value" name="playing card every card Ace of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ace of Spades description" name="playing card every card Ace of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Spades suit value" name="playing card every card Ace of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ace of Spades suit enum value" name="playing card every card Ace of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Spades suit name" name="playing card every card Two of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Spades name" name="playing card every card Two of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Spades value" name="playing card every card Two of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Two of Spades description" name="playing card every card Two of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Spades suit value" name="playing card every card Two of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Two of Spades suit enum value" name="playing card every card Two of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Spades suit name" name="playing card every card Three of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Spades name" name="playing card every card Three of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Spades value" name="playing card every card Three of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Three of Spades description" name="playing card every card Three of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Spades suit value" name="playing card every card Three of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Three of Spades suit enum value" name="playing card every card Three of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Spades suit name" name="playing card every card Four of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Spades name" name="playing card every card Four of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Spades value" name="playing card every card Four of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Four of Spades description" name="playing card every card Four of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Spades suit value" name="playing card every card Four of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Four of Spades suit enum value" name="playing card every card Four of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Spades suit name" name="playing card every card Five of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Spades name" name="playing card every card Five of Spades name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Five of Spades value" name="playing card every card Five of Spades value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Spades description" name="playing card every card Five of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Spades suit value" name="playing card every card Five of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Five of Spades suit enum value" name="playing card every card Five of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Spades suit name" name="playing card every card Six of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Spades name" name="playing card every card Six of Spades name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Six of Spades value" name="playing card every card Six of Spades value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Spades description" name="playing card every card Six of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Spades suit value" name="playing card every card Six of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Six of Spades suit enum value" name="playing card every card Six of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Spades suit name" name="playing card every card Seven of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Spades name" name="playing card every card Seven of Spades name" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Seven of Spades value" name="playing card every card Seven of Spades value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Spades description" name="playing card every card Seven of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Spades suit value" name="playing card every card Seven of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Seven of Spades suit enum value" name="playing card every card Seven of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Spades suit name" name="playing card every card Eight of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Spades name" name="playing card every card Eight of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Spades value" name="playing card every card Eight of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Eight of Spades description" name="playing card every card Eight of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Spades suit value" name="playing card every card Eight of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Eight of Spades suit enum value" name="playing card every card Eight of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Spades suit name" name="playing card every card Nine of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Spades name" name="playing card every card Nine of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Spades value" name="playing card every card Nine of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Nine of Spades description" name="playing card every card Nine of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Spades suit value" name="playing card every card Nine of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Nine of Spades suit enum value" name="playing card every card Nine of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Spades suit name" name="playing card every card Ten of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Spades name" name="playing card every card Ten of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Spades value" name="playing card every card Ten of Spades value" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card Ten of Spades description" name="playing card every card Ten of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Spades suit value" name="playing card every card Ten of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Ten of Spades suit enum value" name="playing card every card Ten of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Spades suit name" name="playing card every card Jack of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Spades name" name="playing card every card Jack of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Spades value" name="playing card every card Jack of Spades value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Spades description" name="playing card every card Jack of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Spades suit value" name="playing card every card Jack of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Jack of Spades suit enum value" name="playing card every card Jack of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Spades suit name" name="playing card every card Queen of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Spades name" name="playing card every card Queen of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Spades value" name="playing card every card Queen of Spades value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Spades description" name="playing card every card Queen of Spades description" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Spades suit value" name="playing card every card Queen of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card Queen of Spades suit enum value" name="playing card every card Queen of Spades suit enum value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Spades suit name" name="playing card every card King of Spades suit name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Spades name" name="playing card every card King of Spades name" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Spades value" name="playing card every card King of Spades value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Spades description" name="playing card every card King of Spades description" time="0.001">
+    </testcase>
+    <testcase classname="playing card every card King of Spades suit value" name="playing card every card King of Spades suit value" time="0">
+    </testcase>
+    <testcase classname="playing card every card King of Spades suit enum value" name="playing card every card King of Spades suit enum value" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="enum" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:01:56" time="1.587" tests="8">
+    <testcase classname="enum constructor single parameter" name="enum constructor single parameter" time="0.003">
+    </testcase>
+    <testcase classname="enum constructor multiple parameters" name="enum constructor multiple parameters" time="0.001">
+    </testcase>
+    <testcase classname="enum constructor single delimited parameter" name="enum constructor single delimited parameter" time="0.001">
+    </testcase>
+    <testcase classname="enum constructor object element" name="enum constructor object element" time="0.001">
+    </testcase>
+    <testcase classname="enum constructor object element, no index" name="enum constructor object element, no index" time="0">
+    </testcase>
+    <testcase classname="enum constructor no numerical elements" name="enum constructor no numerical elements" time="0.001">
+    </testcase>
+    <testcase classname="enum constructor no elements" name="enum constructor no elements" time="0">
+    </testcase>
+    <testcase classname="enum methods length" name="enum methods length" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="suits" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:01:58" time="1.554" tests="5">
+    <testcase classname="suits clubs" name="suits clubs" time="0.003">
+    </testcase>
+    <testcase classname="suits diamonds" name="suits diamonds" time="0.001">
+    </testcase>
+    <testcase classname="suits hearts" name="suits hearts" time="0.001">
+    </testcase>
+    <testcase classname="suits spades" name="suits spades" time="0.001">
+    </testcase>
+    <testcase classname="suits length" name="suits length" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="card deck" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:01:59" time="0.88" tests="3">
+    <testcase classname="card deck cards card class" name="card deck cards card class" time="0.003">
+    </testcase>
+    <testcase classname="card deck cards card size" name="card deck cards card size" time="0.001">
+    </testcase>
+    <testcase classname="card deck cards iterator" name="card deck cards iterator" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="base card" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:02:00" time="0.946" tests="1">
+    <testcase classname="base card description" name="base card description" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="names" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:02:01" time="1.072" tests="1">
+    <testcase classname="names array" name="names array" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="values" errors="0" failures="0" skipped="0" timestamp="2018-10-09T15:02:02" time="1.219" tests="1">
+    <testcase classname="values array" name="values array" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
