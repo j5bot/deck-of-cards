@@ -56,6 +56,11 @@
     border-radius: 5px;
   }
 
+  #test-report header {
+    position: static;
+    float: none;
+  }
+
 </style>
 
 <h2 id="status-badges">Status Badges</h2>
@@ -99,18 +104,20 @@
   <figcaption>CodeCov.io Code Coverage Sunburst Graph</figcaption>
 </figure>
 
-<!--
 <div id="test-report"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
+
 <script src="/assets/scripts/test-reporter.js"></script>
+
 <script>
 (function () {
   'use strict';
 
   // get test output from gist and render
-  fetch('https://gist.githubusercontent.com/konsumer/6f2a42da1a239b4e474bdd6a3688c4e5/raw/507b17a6cbd57329e12573114e36f5111f364cab/tests.json').then(function (r) {
+  fetch('/assets/data/js-test-results.json').then(function (r) {
     return r.json();
   }).then(function (results) {
     return ReactDOM.render(React.createElement(App, { results: results }), document.getElementById('test-report'));
@@ -118,7 +125,7 @@
 
 }());
 </script>
--->
+
 
 
       </section>

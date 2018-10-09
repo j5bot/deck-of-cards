@@ -3,16 +3,9 @@ layout: default
 title: deck-of-cards Tests/Coverage/Demo
 ---
 <style>
-
-  figcaption {
-    margin-top: 0.3rem;
-  }
-
-  .badges img {
-    height: 28px;
-    border-radius: 5px;
-  }
-
+  @import '/assets/styles/site.css';
+  @import '/assets/styles/modules/badges.css';
+  @import '/assets/styles/modules/test-report.css';
 </style>
 
 ## Status Badges ##
@@ -74,7 +67,6 @@ title: deck-of-cards Tests/Coverage/Demo
   <figcaption>CodeCov.io Code Coverage Sunburst Graph</figcaption>
 </figure>
 
-<!--
 <div id="test-report"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
@@ -85,7 +77,7 @@ title: deck-of-cards Tests/Coverage/Demo
   'use strict';
 
   // get test output from gist and render
-  fetch('https://gist.githubusercontent.com/konsumer/6f2a42da1a239b4e474bdd6a3688c4e5/raw/507b17a6cbd57329e12573114e36f5111f364cab/tests.json').then(function (r) {
+  fetch('/assets/data/js-test-results.json').then(function (r) {
     return r.json();
   }).then(function (results) {
     return ReactDOM.render(React.createElement(App, { results: results }), document.getElementById('test-report'));
@@ -93,4 +85,3 @@ title: deck-of-cards Tests/Coverage/Demo
 
 }());
 </script>
--->

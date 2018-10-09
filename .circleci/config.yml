@@ -47,16 +47,26 @@ jobs:
           command: npm install --only=dev jest-junit
 
       - run:
-          environment:
-            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
-          name: Run tests with JUnit as reporter
-          command: npm run test -- --runInBand --ci --reporters=default --reporters=jest-junit
+          name: Make reports directory
+          command: mkdir -p reports
 
       - run:
-          name: Generate eslint report
-          command: npm run lint -- --format junit -o reports/junit/js-lint-results.xml
+          name: Run tests with JSON output
+          command: npm run coverage -- --json --outputFile=reports/js-test-results.json
+
+      - run:
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/js-test-results.xml"
+          name: Run tests with JUnit as reporter
+          command: npm run test -- --runInBand --ci --reporters=default --reporters=jest-junit
+          when: always
+
+      - run:
+          name: Generate eslint report in JUnit format
+          command: npm run lint -- --format junit -o reports/js-lint-results.xml
+          when: always
 
       - store_test_results:
-          path: reports/junit
+          path: reports
       - store_artifacts:
-          path: reports/junit
+          path: reports
