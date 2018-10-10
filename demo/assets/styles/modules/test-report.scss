@@ -1,0 +1,119 @@
+---
+---
+
+#test-report {
+
+  .resultGroup {
+    margin-left: 1em;
+    > span {
+      width: 100%;
+      font-style: italic;
+    }
+  }
+
+  .resultGroup + .assertion {
+    margin-top: 0.5em;
+  }
+
+  header {
+    position: static;
+    float: none;
+    margin: 0 0 0.8em 0.3em;
+
+    h1 {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 10px;
+    }
+  }
+
+
+  .metric {
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2px;
+
+    &.failed {
+      background-color: red;
+      border-color: LavenderBlush;
+      color: white;
+    }
+
+    &.passed {
+      background-color: green;
+      border-color: MintCream;
+      color: white;
+    }
+  }
+
+  .Result {
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+
+    &, .resultGroup, .assertion {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    h2 {
+      margin: 0;
+      margin-bottom: 0.5em;
+      flex-basis: 100%;
+      padding: 0.3em 0 0 0.5em;
+
+      i {
+        margin-right: 0.5em;
+      }
+    }
+
+    &.passed {
+      border-color: green;
+      background: MintCream;
+    }
+    &.failed {
+      border-color: red;
+      background: LavenderBlush;
+    }
+  }
+
+  .assertion {
+    margin-left: 1em;
+    flex-basis: 40%;
+    flex-grow: 2;
+    flex-shrink: 0;
+    i {
+      display: block;
+      flex-basis: 1.5em;
+    }
+
+    .assertion-title {
+      display: block;
+      flex-basis: calc(100% - 1.5em);
+      flex-grow: 0;
+    }
+  }
+
+  .assertion, .Result {
+
+    h2 {
+      color: inherit;
+    }
+
+    &.passed {
+      color: green;
+    }
+
+    &.failed {
+      color:red;
+    }
+  }
+}

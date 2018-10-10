@@ -60,6 +60,7 @@ title: deck-of-cards Tests/Coverage/Demo
 
 </div>
 
+## Code Coverage Graph ##
 <figure class="image">
   <a title="codecov.io coverage graph" href="https://codecov.io/gh/j5bot/deck-of-cards/" target="_blank">
     <img src="https://codecov.io/gh/j5bot/deck-of-cards/branch/master/graphs/sunburst.svg" />
@@ -67,21 +68,6 @@ title: deck-of-cards Tests/Coverage/Demo
   <figcaption>CodeCov.io Code Coverage Sunburst Graph</figcaption>
 </figure>
 
+## Test Results ##
 <div id="test-report"></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
-<script src="/assets/scripts/test-reporter.js"></script>
-<script>
-(function () {
-  'use strict';
-
-  // get test output from gist and render
-  fetch('/assets/data/js-test-results.json').then(function (r) {
-    return r.json();
-  }).then(function (results) {
-    return ReactDOM.render(React.createElement(App, { results: results }), document.getElementById('test-report'));
-  });
-
-}());
-</script>
+<script src="/assets/scripts/main.js" charset="UTF-8"></script>
