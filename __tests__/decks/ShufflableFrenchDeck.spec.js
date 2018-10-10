@@ -112,15 +112,17 @@ describe('shuffler', () => {
 
     });
 
-    test('sizes', () => {
-      expect(original).toHaveLength(52);
-      expect(newOrder).toHaveLength(original.length);
-    });
+    describe('compare', () => {
+      test('sizes', () => {
+        expect(original).toHaveLength(52);
+        expect(newOrder).toHaveLength(original.length);
+      });
 
-    test('reorder', () => {
-      const ordered = newOrder.sort();
+      test('reorder', () => {
+        const ordered = newOrder.sort();
 
-      expect(ordered).toEqual(original);
+        expect(ordered).toEqual(original);
+      });
     });
 
   });
