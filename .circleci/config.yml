@@ -65,10 +65,10 @@ jobs:
           command: npm run test -- --runInBand --ci --reporters=default --reporters=jest-junit
           when: always
 
-      - run:
-          name: Generate eslint report in JUnit format
-          command: npm run lint -- --format junit -o reports/js-lint-results.xml
-          when: always
+      # - run:
+      #     name: Generate eslint report in JUnit format
+      #     command: npm run lint -- --format junit -o reports/js-lint-results.xml
+      #     when: always
 
       - store_test_results:
           path: reports
