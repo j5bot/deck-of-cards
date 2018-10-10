@@ -4,4 +4,12 @@ description: Demonstrate the deck-of-cards code via tests, code coverage informa
 logo: resources/icon - deck of cards - created by Valter Bispo from the Noun Project.svg
 show_downloads: false
 google_analytics: UA-127162500-1
-exclude: ["node_modules"]
+exclude: [
+    "node_modules",
+    "webpack",
+    "package.json",
+    "package-lock.json",
+    "Gemfile",
+    "Gemfile.lock",
+    "webpack.config.js"
+  ]
