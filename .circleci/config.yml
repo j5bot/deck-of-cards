@@ -69,7 +69,6 @@ jobs:
       #     name: Generate eslint report in JUnit format
       #     command: npm run lint -- --format junit -o reports/js-lint-results.xml
       #     when: always
-      #     
 
       - store_test_results:
           path: reports
