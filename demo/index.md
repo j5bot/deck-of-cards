@@ -3,9 +3,9 @@ layout: default
 title: deck-of-cards Tests/Coverage/Demo
 ---
 <style>
-  @import '/assets/styles/site.css';
-  @import '/assets/styles/modules/badges.css';
-  @import '/assets/styles/modules/test-report.css';
+  @import 'assets/styles/site.css';
+  @import 'assets/styles/modules/badges.css';
+  @import 'assets/styles/modules/test-report.css';
 </style>
 
 ## Status Badges ##
@@ -70,4 +70,4 @@ title: deck-of-cards Tests/Coverage/Demo
 
 ## Test Results ##
 <div id="test-report"></div>
-<script src="/assets/scripts/main.js" charset="UTF-8"></script>
+<script src="assets/scripts/main.js" charset="UTF-8"></script>
