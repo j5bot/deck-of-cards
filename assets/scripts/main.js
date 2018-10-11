@@ -750,11 +750,41 @@ var config = {
   ancestors: 'ancestorTitles'
 };
 
-fetch('https://gitcdn.link/repo/j5bot/deck-of-cards/master/reports/js-test-results.json').then(function (r) {
+var getJSON = function getJSON(r) {
   return r.json();
-}).then(function (results) {
+};
+var renderApp = function renderApp(results) {
   return (0, _reactDom.render)(_react2.default.createElement(_testReporter.App, { results: results, config: config }), document.getElementById('test-report'));
-});
+};
+
+var cdn = 'https://gitcdn.link/repo/j5bot/deck-of-cards/master';
+var local = '/assets';
+var report = '/reports/js-test-results.json';
+
+var cdnReport = '' + cdn + report;
+var localReport = '' + local + report;
+
+var fetchHandledJSON = function fetchHandledJSON(_ref) {
+  var urls = _ref.urls,
+      _ref$index = _ref.index,
+      index = _ref$index === undefined ? 0 : _ref$index;
+
+  return fetch(urls[index]).then(function (r) {
+    return r.ok ? r.json() : Promise.reject({
+      status: r.status,
+      data: r.json()
+    });
+  }).catch(function (error) {
+    return index < urls.length ? fetchHandledJSON({
+      urls: urls,
+      index: index++
+    }) : Promise.reject(error);
+  });
+};
+
+fetchHandledJSON({
+  urls: [cdnReport, localReport]
+}).then(renderApp);
 
 /***/ }),
 /* 9 */

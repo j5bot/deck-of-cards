@@ -4,7 +4,7 @@
   "description": "Demo site for deck-of-cards",
   "private": true,
   "scripts": {
-    "build": "./node_modules/.bin/webpack build"
+    "build": "./node_modules/.bin/webpack"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
