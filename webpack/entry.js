@@ -11,7 +11,7 @@ let config = {
   ancestors: 'ancestorTitles'
 };
 
-fetch('/assets/data/js-test-results.json').then(function (r) {
+fetch('https://gitcdn.link/repo/j5bot/deck-of-cards/master/reports/js-test-results.json').then(function (r) {
   return r.json();
 }).then(function (results) {
   return render(<App results={results} config={config} />, document.getElementById('test-report'));

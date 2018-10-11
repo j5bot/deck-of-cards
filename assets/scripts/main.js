@@ -750,7 +750,7 @@ var config = {
   ancestors: 'ancestorTitles'
 };
 
-fetch('/assets/data/js-test-results.json').then(function (r) {
+fetch('https://gitcdn.link/repo/j5bot/deck-of-cards/master/reports/js-test-results.json').then(function (r) {
   return r.json();
 }).then(function (results) {
   return (0, _reactDom.render)(_react2.default.createElement(_testReporter.App, { results: results, config: config }), document.getElementById('test-report'));
