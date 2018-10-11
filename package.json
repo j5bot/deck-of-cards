@@ -10,6 +10,7 @@
     "coverage": "jest --coverage",
     "coverage:view": "open coverage/lcov-report/index.html",
     "lint": "eslint **/*.js",
+    "release": "release-it",
     "test": "jest",
     "test:watch": "jest --watch"
   },

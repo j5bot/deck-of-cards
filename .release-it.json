@@ -1,0 +1,11 @@
+{
+  "src": {
+    "tagName": "version-%s"
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": false
+  }
+}
