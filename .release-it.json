@@ -7,10 +7,6 @@
     "tag": true,
     "tagName": "v%s"
   },
-  "dist": {
-    "repo": "git@github.com:j5bot/deck-of-cards.git#gh-pages",
-    "beforeStageCommand": "mkdir -p ./assets/data; cp ./reports/js-test-results.json ./assets/data/"
-  },
   "github": {
     "release": true,
     "assets": "reports/js-test-results.json"
