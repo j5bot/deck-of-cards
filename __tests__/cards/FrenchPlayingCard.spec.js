@@ -22,6 +22,9 @@ describe('playing card', () => {
     test('name', () => {
       expect(aceOfSpades.name).toBe('Ace');
     });
+    test('lower', () => {
+      expect(aceOfSpades.lower).toBe('ace');
+    });
     test('value', () => {
       expect(aceOfSpades.value).toBe(1);
     });
@@ -59,6 +62,11 @@ describe('playing card', () => {
           expect(card.name).toBe(
             names[nameIndex]
           );
+        });
+        test('lower', () => {
+          expect(card.lower).toBe(
+            names[nameIndex].toLowerCase()
+          )
         });
         test('value', () => {
           expect(card.value).toBe(values[nameIndex]);
