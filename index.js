@@ -23,7 +23,7 @@ import shuffler from './src/shuffler/shuffler.js';
 import Enum from './src/util/Enum.js';
 import getRandomInt from './src/util/random.js';
 
-export default {
+export {
   BaseCardSet,
   BaseCard,
   PlayingCard,
