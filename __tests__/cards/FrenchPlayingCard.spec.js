@@ -19,6 +19,9 @@ describe('playing card', () => {
     test('suit name', () => {
       expect(aceOfSpades.suit.name).toBe('Spades');
     });
+    test('suite name lower', () => {
+      expect(aceOfSpades.suit.lower).toBe('spades');
+    })
     test('name', () => {
       expect(aceOfSpades.name).toBe('Ace');
     });

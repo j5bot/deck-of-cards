@@ -17,6 +17,7 @@ export class PlayingCard extends BaseCard {
     this.lower = names[index].toLowerCase();
     this.suit = {
       name:  Suits[suit],
+      lower: Suits[suit].toLowerCase(),
       value: suit
     };
     this.description = `${this.name} of ${this.suit.name}`;
