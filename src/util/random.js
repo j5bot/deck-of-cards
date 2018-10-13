@@ -14,3 +14,5 @@ export const getRandomInt = (min, max) => {
   }
   return min + (byteArray[0] % range);
 };
+
+export default getRandomInt

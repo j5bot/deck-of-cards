@@ -74,3 +74,5 @@ export const shuffler = (Base) => class extends Base {
   }
 
 };
+
+export default shuffler;
