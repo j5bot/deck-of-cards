@@ -1,6 +1,6 @@
 {
   "name": "deck-of-cards",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "private": true,
   "description": "An implementation of a deck of cards in ES6.",
   "directories": {
