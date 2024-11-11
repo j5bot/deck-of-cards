@@ -52,6 +52,8 @@ title: deck-of-cards Tests/Coverage/Demo
 
 [//]: # (</figure>)
 
-## Test Results ##
-<div id="test-report"></div>
-<script src="assets/scripts/main.js" charset="UTF-8"></script>
+[//]: # (## Test Results ##)
+
+[//]: # (<div id="test-report"></div>)
+
+[//]: # (<script src="assets/scripts/main.js" charset="UTF-8"></script>)
