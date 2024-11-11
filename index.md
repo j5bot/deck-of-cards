@@ -38,13 +38,19 @@ title: deck-of-cards Tests/Coverage/Demo
   </a>
 </div>
 
-## Code Coverage Graph ##
-<figure class="image">
-  <a title="codecov.io coverage graph" href="https://codecov.io/gh/j5bot/deck-of-cards/" target="_blank">
-    <img src="https://codecov.io/gh/j5bot/deck-of-cards/branch/master/graphs/sunburst.svg" />
-  </a>
-  <figcaption>CodeCov.io Code Coverage Sunburst Graph</figcaption>
-</figure>
+[//]: # (## Code Coverage Graph ##)
+
+[//]: # (<figure class="image">)
+
+[//]: # (  <a title="codecov.io coverage graph" href="https://codecov.io/gh/j5bot/deck-of-cards/" target="_blank">)
+
+[//]: # (    <img src="https://codecov.io/gh/j5bot/deck-of-cards/branch/master/graphs/sunburst.svg" />)
+
+[//]: # (  </a>)
+
+[//]: # (  <figcaption>CodeCov.io Code Coverage Sunburst Graph</figcaption>)
+
+[//]: # (</figure>)
 
 ## Test Results ##
 <div id="test-report"></div>
