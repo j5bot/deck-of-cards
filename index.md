@@ -10,7 +10,6 @@ title: deck-of-cards Tests/Coverage/Demo
 
 ## Status Badges ##
 <div class="badges">
-
   <a href="https://circleci.com/gh/j5bot/deck-of-cards" target="_blank">
     <img
       alt="CircleCI: j5bot/deck-of-cards Build Status"
@@ -37,27 +36,6 @@ title: deck-of-cards Tests/Coverage/Demo
       src="https://www.codefactor.io/repository/github/j5bot/deck-of-cards/badge?style=for-the-badge"
       id="codefactor"/>
   </a>
-  <a href="https://david-dm.org/j5bot/deck-of-cards" target="_blank">
-    <img
-      alt="David DM: Dependency Check"
-      src="https://img.shields.io/david/j5bot/deck-of-cards.svg?style=for-the-badge"/>
-  </a>
-  <a href="https://david-dm.org/j5bot/deck-of-cards" target="_blank">
-    <img
-      alt="David DM: Development Dependency Check"
-      src="https://img.shields.io/david/dev/j5bot/deck-of-cards.svg?style=for-the-badge"/>
-  </a>
-  <a href="https://david-dm.org/j5bot/deck-of-cards" target="_blank">
-    <img
-      alt="David DM: Optional Dependency Check"
-      src="https://img.shields.io/david/optional/j5bot/deck-of-cards.svg?style=for-the-badge"/>
-  </a>
-  <a href="https://david-dm.org/j5bot/deck-of-cards" target="_blank">
-    <img
-      alt="David DM: Peer Dependency Check"
-      src="https://img.shields.io/david/peer/j5bot/deck-of-cards.svg?style=for-the-badge"/>
-  </a>
-
 </div>
 
 ## Code Coverage Graph ##
